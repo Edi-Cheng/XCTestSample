@@ -15,6 +15,9 @@
 		3E88BDEA267904D000B553C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E88BDE8267904D000B553C8 /* LaunchScreen.storyboard */; };
 		3E88BDF5267904D100B553C8 /* XCTestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BDF4267904D100B553C8 /* XCTestSampleTests.swift */; };
 		3E88BE00267904D100B553C8 /* XCTestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BDFF267904D100B553C8 /* XCTestSampleUITests.swift */; };
+		3E88BE0E2679067C00B553C8 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BE0D2679067C00B553C8 /* DependencyInjection.swift */; };
+		3E88BE102679073100B553C8 /* DependencyInjectionV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BE0F2679073100B553C8 /* DependencyInjectionV2.swift */; };
+		3E88BE12267907F100B553C8 /* DependencyInjectionV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BE11267907F100B553C8 /* DependencyInjectionV3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3E88BDFB267904D100B553C8 /* XCTestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E88BDFF267904D100B553C8 /* XCTestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestSampleUITests.swift; sourceTree = "<group>"; };
 		3E88BE01267904D100B553C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E88BE0D2679067C00B553C8 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		3E88BE0F2679073100B553C8 /* DependencyInjectionV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionV2.swift; sourceTree = "<group>"; };
+		3E88BE11267907F100B553C8 /* DependencyInjectionV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionV3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				3E88BDE6267904D000B553C8 /* Assets.xcassets */,
 				3E88BDE8267904D000B553C8 /* LaunchScreen.storyboard */,
 				3E88BDEB267904D000B553C8 /* Info.plist */,
+				3E88BE0D2679067C00B553C8 /* DependencyInjection.swift */,
+				3E88BE0F2679073100B553C8 /* DependencyInjectionV2.swift */,
+				3E88BE11267907F100B553C8 /* DependencyInjectionV3.swift */,
 			);
 			path = XCTestSample;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E88BE102679073100B553C8 /* DependencyInjectionV2.swift in Sources */,
+				3E88BE12267907F100B553C8 /* DependencyInjectionV3.swift in Sources */,
 				3E88BDE2267904CF00B553C8 /* ViewController.swift in Sources */,
 				3E88BDDE267904CF00B553C8 /* AppDelegate.swift in Sources */,
+				3E88BE0E2679067C00B553C8 /* DependencyInjection.swift in Sources */,
 				3E88BDE0267904CF00B553C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
