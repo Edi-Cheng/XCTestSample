@@ -10,6 +10,8 @@ import XCTest
 
 class XCTestSampleTests: XCTestCase {
 
+    let sample = Sample()
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -21,6 +23,10 @@ class XCTestSampleTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        sample.addOne()
+        
+        XCTAssertEqual(sample.count, 1)
     }
 
     func testPerformanceExample() throws {
@@ -30,4 +36,12 @@ class XCTestSampleTests: XCTestCase {
         }
     }
 
+}
+
+class Sample {
+    var count = 0
+    
+    func addOne() {
+        count += 1
+    }
 }
